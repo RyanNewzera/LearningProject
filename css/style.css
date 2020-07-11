@@ -1,0 +1,206 @@
+.web-page, .menu, .social, .app-links, .nav {
+  display: flex; 
+  flex-direction: row;
+}
+
+.web-page {
+  width: 100%;
+  height: 100%;
+  background-color: #FDE3D9;
+}
+.group-left, .group-right {
+  height: 100%;
+  width: 50%;
+}
+.group-right {
+background-size: cover;
+}
+
+.header-img {
+  position: absolute;
+  width: 194px;
+  height: 62px;
+  margin: 33px 1205px 715px 41px;
+}
+
+.title {
+  position: absolute;
+  height: 418px;
+  width: 571px;
+  margin: 309px 89px 37px 60px;
+}
+
+.title-head {
+  height: 162px;
+  width: 571px;
+  color: #3E3E3E;
+  font-family: "Banana Grotesk";
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 54px;
+}
+
+.title-content {
+  height: 108px;
+  width: 440px;
+  color: #6D6D6D;
+  font-family: "Banana Grotesk";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.11px;
+  line-height: 27px;
+}
+
+.app-links {
+  position: absolute;
+  height: 80px;
+  width: 379px;
+  margin: 48px 192px 0px 0px;
+}
+
+.google-play {
+  height: 53px;
+  width: 170px;
+}
+
+.google-play, .app-store {
+  padding-right: 20px;
+}
+
+.menu {
+  position: absolute;
+  height: 54px;
+  width: 210px;
+  margin: 41px 59px 310px 351px;
+} 
+
+.about, .blog, .careers, .contact {
+  padding-right: 5px;
+}
+
+.about {
+  height: 27px;
+  width: 35px;
+  color: #F7F7F7;
+  font-family: "Banana Grotesk";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.blog {
+  height: 27px;
+  width: 26px;
+  color: #F7F7F7;
+  font-family: "Banana Grotesk";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.careers {
+  height: 27px;
+  width: 44px;
+  color: #F7F7F7;
+  font-family: "Banana Grotesk";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.contact {
+  height: 27px;
+  width: 46px;
+  color: #F7F7F7;
+  font-family: "Banana Grotesk";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.input {
+  position: absolute;
+  height: 54px;
+  width: 210px;
+  margin: 447px 390px 160px 110px;
+}
+
+.input-label {
+  height: 27px;
+  width: 80px;
+  color: #FFFFFF;
+  font-family: "Banana Grotesk";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.12px;
+  line-height: 27px;
+}
+
+.input-text {
+  height: 81px;
+  width: 220px;
+  color: #FFFFFF;
+  font-family: "Banana Grotesk";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.11px;
+  line-height: 27px;
+}
+
+.nav {
+  background: transparent;
+  position: relative;
+  height: 12px;
+  width: 50px;
+  margin: 557px 585px 160px 110px;
+}
+
+.slider-1, .slider-2 {
+  cursor: pointer;
+  border-style: outset;
+  border-color: white;
+  margin: 0px 2.5px;
+  width: 4px;
+  height: 4px;
+  border-radius: 5px; 
+}
+
+.slider-1:hover, .slider-2:hover {
+  background-color: white;
+}
+
+.social {
+  position: absolute;
+  height: 16px;
+  width: 245px;
+  margin: 644px 60px 30px 415px;
+}
+
+.facebook, .instagram, .twitter, .linkedin {
+  padding-right: 20px;
+}
+
+.facebook {
+  height: 15.24px;
+  width: 7.13px;
+}
+
+.instagram {
+  height: 15.24px;
+  width: 15.24px;
+}
+
+.twitter {
+  height: 12.72px;
+  width: 15.24px;
+}
+
+.linkedin {
+  height: 15.37px;
+  width: 15.24px;
+}
